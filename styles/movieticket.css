@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .formulario {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .formulario input {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .ticket {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: url('https://i.imgur.com/BVtT4tw.png') no-repeat center;
+    background-size: cover;
+    border: 2px dashed #333;
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    background-color: #fff; /* fallback */
+  }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ticket de Cine</title>
+  <link rel="stylesheet" href="styles/movieticket.css">
+</head>
+<body>
+  <h1>Generador de Ticket de Cine</h1>
+
+  <div class="formulario">
+    <label>Nombre:</label>
+    <input type="text" id="nombre"><br>
+
+    <label>Fecha:</label>
+    <input type="date" id="fecha"><br>
+
+    <label>Fila:</label>
+    <input type="text" id="fila"><br>
+
+    <label>Asiento:</label>
+    <input type="text" id="asiento"><br>
+
+    <button onclick="rellenarTicket()">Enviar</button>
+  </div>
+
+  <div class="ticket" id="ticket">
+    <h2>Entrada de Cine</h2>
+    <p><strong>Nombre:</strong> <span id="t-nombre">________</span></p>
+    <p><strong>Fecha:</strong> <span id="t-fecha">________</span></p>
+    <p><strong>Butaca:</strong> <span id="t-fila">Fila __</span>, <span id="t-asiento">Asiento __</span></p>
+  </div>
+
+  <script src="movieticket.js"></script>
+</body>
+</html>
